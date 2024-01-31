@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,400&display=swap');
+
+
+*{
+font-family: Libre Franklin,sans-serif;
+}
+
+body{
+background: #FFF;
+min-width: 375px;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.registration{
+padding: 81px 36px 72px 37px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h2{
+width: 56px;
+color: #15202A;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;   
+}
+
+h2 span{
+color: #4C7BF3;
+}
+
+h3{
+color: #969696;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px;
+margin: 32px 0 15px; 
+}
+
+h3 span{
+color: #15202A;
+font-weight: 700;
+}
+
+.registration p{
+color: #15202A;
+text-align: center;
+font-family: Libre Franklin;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+form{
+width: 100%;
+padding-top: 32px;
+margin-bottom: 94px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+form.error input[type="email"]{
+border-radius: 28px;
+border: 1px solid #FF5466;
+background: #FFF;
+box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.00);
+margin-bottom: 2px;
+}
+
+form.error .error_text{
+color: #FF5466;
+font-family: Libre Franklin;
+font-size: 10px;
+font-style: italic;
+font-weight: 400;
+line-height: 20px; 
+letter-spacing: 0.125px;
+margin-bottom: 10px;
+}
+
+form input[type="email"]{
+width: 281px;
+height: 40px;
+padding-left: 30px;
+border-radius: 28px;
+border: 1px solid #C2D3FF;
+background: #FFF;
+box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.00);
+}
+
+form input[type="email"]::placeholder{
+color: #B8C7ED;
+font-family: Libre Franklin;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px;
+padding: 10px 135px 10px 32px;
+
+
+}
+form button[type="submit"]{
+width: 282px;
+height: 40px;
+border: none;
+border-radius: 28px;
+background: #4C7BF3;
+box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.23);
+color: white;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.dashboard{
+width: 284px;
+}
+
+.contact{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 27px;
+margin: 120px 0 37px;
+}
+.socmedia{
+display: flex;
+flex-direction: row;
+gap: 13px;
+}
+
+.socmedia a{
+color: #4C7BF3;
+width: 32px;
+height: 32px;
+border: 1px solid rgba(76, 123, 243, 0.15);
+border-radius:  32px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+}
+
+.copyright{
+color: #969696;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+
+@media (min-width:736px ){
+
+        
+.registration{
+padding: 80px 25% 0 25% ;
+}
+
+h2{
+width: 90px;
+font-size: 32px; 
+}
+
+h3{
+width: 712px;
+font-size:48px;
+line-height: 60px;
+margin: 40px 0 16px; 
+}
+
+.registration p{
+font-size: 20px;
+}
+        
+form{
+padding-top: 40px;
+flex-direction: row;
+align-items: flex-start;
+}
+
+#error_container{
+display: flex;
+flex-direction: column;
+}
+
+form.error .error_text{
+margin-top: 6px;
+padding-left: 30px;
+align-self: baseline;
+color: #FF5466;
+font-family: Libre Franklin;
+font-size: 12px;
+font-style: italic;
+font-weight: 400;
+line-height: 20px; 
+letter-spacing: 0.15px;
+}
+        
+form input[type="email"]{
+width: 421px;
+height: 56px;
+
+}
+        
+form input[type="email"]::placeholder{
+font-size: 16px;
+padding: 18px 240px 18px 30px;
+}
+
+form button[type="submit"]{
+width: 200px;
+height:56px;
+margin: 0 0 0 16px;
+}
+
+.dashboard{
+width:568px;
+}
+        
+.contact{
+gap: 25px;
+margin: 96px 0 40px;
+}
+
+
+        
+}
